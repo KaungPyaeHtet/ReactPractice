@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (<div>
-  <div class="hello">This is a special class</div>
+  <div class="hello">I change</div>
       </div>);
     }
 
