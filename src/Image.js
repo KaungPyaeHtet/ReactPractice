@@ -51,10 +51,9 @@ const Image = () => {
 		{
 			height:"80vh",
 			margin:"20px",
-			padding:"10px",
 		}
 	  } src={imageURL} alt="Anime Picture"></img>
-	  <button style={{width:"50px",height:"50px"}}onClick={callImage}>Call an Anime Picture</button>
+	  <button onClick={callImage}>Call an Anime Picture</button>
 	</div>
   );
 };
