@@ -6,7 +6,7 @@ const Image = () => {
     const apiUrl = "https://api.waifu.im/search"; // Replace with the actual API endpoint URL
     const params = {
       included_tags: ["waifu"],
-      height: ">=2000",
+      height: ">=800",
     };
 
     const queryParams = new URLSearchParams();
@@ -42,16 +42,20 @@ const Image = () => {
       });
   };
   return (
-    <>
+    <div style={{
+		display: "flex",
+		alignItems:"center",
+		justifyContent:"center",
+	}}>
       <img style={
 		{
-			height:"90vh",
+			height:"80vh",
 			margin:"20px",
 			padding:"10px",
 		}
 	  } src={imageURL} alt="GG"></img>
 	  <button style={{width:"50px",height:"50px"}}onClick={callImage}>Click me!</button>
-    </>
+	</div>
   );
 };
 
