@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import Image from "./Image";
 
 function App() {
-  return (<div>
-  <div class="hello">I change</div>
-      </div>);
-    }
+  return (
+    <div>
+      <Image />
+    </div>
+  );
+}
 
 export default App;
