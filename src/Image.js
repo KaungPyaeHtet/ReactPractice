@@ -53,8 +53,8 @@ const Image = () => {
 			margin:"20px",
 			padding:"10px",
 		}
-	  } src={imageURL} alt="GG"></img>
-	  <button style={{width:"50px",height:"50px"}}onClick={callImage}>Click me!</button>
+	  } src={imageURL} alt="Anime Picture"></img>
+	  <button style={{width:"50px",height:"50px"}}onClick={callImage}>Call an Anime Picture</button>
 	</div>
   );
 };
